@@ -11,8 +11,8 @@ android {
         applicationId = "com.almosoft.eye_break20_20_20"
         minSdk = 24
         targetSdk = 35
-        versionCode = 2
-        versionName = "1.1"
+        versionCode = 5
+        versionName = "1.4"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -48,8 +48,10 @@ dependencies {
     implementation(libs.androidx.navigation.compose)
     implementation(libs.androidx.datastore.preferences)
     implementation(libs.play.services.ads)
+    implementation(libs.user.messaging.platform)
     implementation(libs.androidx.work.runtime.ktx)
     implementation(libs.androidx.ui.text.google.fonts)
+    implementation(libs.material)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

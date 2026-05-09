@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.Eye_break_20_20_20" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.Eye_break_20_20_20" parent="Theme.Material3.DayNight.NoActionBar" />
 
-    <style name="Theme.EyeCare202020Rule" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.EyeCare202020Rule" parent="Theme.Material3.DayNight.NoActionBar" />
 </resources>
