@@ -5,14 +5,14 @@ plugins {
 
 android {
     namespace = "com.almosoft.eyecare_202020rule"
-    compileSdk = 36
+    compileSdk = 37
 
     defaultConfig {
         applicationId = "com.almosoft.eye_break20_20_20"
         minSdk = 24
         targetSdk = 35
-        versionCode = 5
-        versionName = "1.4"
+        versionCode = 6
+        versionName = "1.5"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -51,6 +51,7 @@ dependencies {
     implementation(libs.user.messaging.platform)
     implementation(libs.androidx.work.runtime.ktx)
     implementation(libs.androidx.ui.text.google.fonts)
+    implementation(libs.androidx.fragment)
     implementation(libs.material)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)

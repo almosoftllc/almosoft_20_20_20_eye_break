@@ -1,0 +1,14 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <!-- Outer Eye Shape -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M50,25C30,25 12,37 5,50C12,63 30,75 50,75C70,75 88,63 95,50C88,37 70,25 50,25ZM50,65C41.7,65 35,58.3 35,50C35,41.7 41.7,35 50,35C58.3,35 65,41.7 65,50C65,58.3 58.3,65 50,65Z"/>
+    <!-- Iris -->
+    <path
+        android:fillColor="#1A73E8"
+        android:pathData="M50,40C44.5,40 40,44.5 40,50C40,55.5 44.5,60 50,60C55.5,60 60,55.5 60,50C60,44.5 55.5,40 50,40ZM50,54C47.8,54 46,52.2 46,50C46,47.8 47.8,46 50,46C52.2,46 54,47.8 54,50C54,52.2 52.2,54 50,54Z"/>
+</vector>
