@@ -10,9 +10,9 @@ android {
     defaultConfig {
         applicationId = "com.almosoft.eye_break20_20_20"
         minSdk = 24
-        targetSdk = 35
-        versionCode = 6
-        versionName = "1.5"
+        targetSdk = 36
+        versionCode = 7
+        versionName = "1.6"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
